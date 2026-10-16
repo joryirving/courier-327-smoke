@@ -1,0 +1,7 @@
+name: Smoke CI
+on: [pull_request, push]
+jobs:
+  green:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo smoke check ok
